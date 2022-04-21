@@ -1,0 +1,29 @@
+name: coagulation
+channels:
+  - plotly
+  - conda-forge
+  - defaults
+  # - https://repo.anaconda.com/pkgs/free
+
+dependencies:
+  - autopep8
+  - cachecontrol
+  # - eccodes=2.17
+  # - et_xmlfile=1.0.1
+  - jupyter
+  - lockfile
+  - openpyxl
+  - pandas=1.1
+  - pint=0.11
+  - pip
+  - plotly=4.9
+  - pylint
+  - pytables=3.6
+  - python=3.9
+  # - python-eccodes=2021
+  - requests
+  - seaborn
+  - tqdm
+  - pip:
+    - chemistry-tools[formulae]
+    - phreeqpython
