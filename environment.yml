@@ -1,4 +1,4 @@
-name: coagulation
+name: martijn_phreeqc
 channels:
   - plotly
   - conda-forge
